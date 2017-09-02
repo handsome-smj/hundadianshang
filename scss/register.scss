@@ -1,0 +1,66 @@
+@import './main.scss';
+
+#registerContent{
+    padding-top: 30px;
+    input{
+        box-sizing: border-box;
+        width: 90%;
+        margin-left: 5%;
+        height: 36px;
+        display: block;
+        margin-top: 5px;
+        
+    }
+    input[type='text'],input[type='password']{
+        text-indent: 12px;
+    }
+    .checkbox{
+        
+        width: 90%;
+        margin-left: 5%;
+        height: 36px;
+        margin-top: 5px;
+       
+        
+        @include flex-center;
+        @include flex-direction('row');
+        
+        justify-content: flex-start;
+        
+        #checkbox{
+            width: 5%;
+        }
+       
+        
+        
+    }
+    
+    .tip{
+        
+        
+        width: 50%;
+        height: 30px;
+     
+        margin-left: 25%;
+        background: #000000;
+     
+        opacity: .6;
+        margin-top: 50px;
+        
+        border-radius: 10px;
+        
+       
+        text-align: center;
+        line-height: 30px;
+        
+        display: none;
+        
+        
+        p{
+            color: blue; 
+            font-weight: 900;
+        }
+        
+        
+    }
+}

@@ -1,0 +1,48 @@
+
+
+@import './main.scss';
+
+#loginContent{
+    padding-top: 30px;
+    input{
+        box-sizing: border-box;
+        width: 90%;
+        margin-left: 5%;
+        height: 36px;
+        display: block;
+        margin-top: 5px;
+        
+    }
+    input[type='text'],input[type='password']{
+        text-indent: 12px;
+    }
+    
+    .tip{
+        
+        
+        width: 50%;
+        height: 30px;
+     
+        margin-left: 25%;
+        background: #000000;
+     
+        opacity: .6;
+        margin-top: 50px;
+        
+        border-radius: 10px;
+        
+       
+        text-align: center;
+        line-height: 30px;
+        
+        display: none;
+        
+        
+        p{
+            color: blue; 
+            font-weight: 900;
+        }
+        
+        
+    }
+}

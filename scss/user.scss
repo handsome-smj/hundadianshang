@@ -1,0 +1,61 @@
+@import "main.scss";
+
+#userInfo{
+    
+    width: 100%;
+    height: 200px;
+
+    background: url(../images/userbg.jpg) center no-repeat;
+    
+    border-radius:50% ;
+    
+    @include flexBox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+    
+    #userImg{
+        
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 1px solid #A9A9A9;
+        
+        margin-left: 50px;
+    }
+    
+    #userName{
+        
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        color: #A9A9A9;
+        margin-left: 80px;
+        
+        font-size: 15px;
+        
+       
+    }
+    
+    
+}
+
+#loginBtn,#registerBtn,#exitBtn{
+    
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 30px;
+    background: #02A8FC;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    
+}
+#exitBtn{
+    display: none;
+}
+

@@ -1,0 +1,260 @@
+@import './main.scss';
+
+
+#content{
+    
+   
+    
+    
+    .kindLeft{
+        
+        width: 20%;
+        
+        height: 100%;
+        float: left;
+        
+        overflow: auto;
+         &::-webkit-scrollbar {display:none}
+        
+        
+        li{
+            
+            list-style: none;
+            
+            width: 100%;
+            height: 50px;
+            background: #F6F6F6;
+            
+            @include flex-center;
+            
+           
+            p{
+                width: 100%;
+                text-align: center;
+            }
+        }
+        
+        .kindactive{
+            background: none;
+            
+            P{
+                color: #FF5777;
+                
+                font-weight: 800;
+                
+                border-left: 3px solid #FF5777;
+                
+            }
+            
+        }
+        
+        
+        
+        
+    }
+    .kindRight{
+        
+        
+        width: 80%;
+        
+        height: 100%;
+        
+        
+        position: relative;
+        
+        float: left;
+        overflow: auto;
+         &::-webkit-scrollbar {display:none}
+        
+        .RightTop{
+            
+            width: 100%;
+            
+            float: left;
+            
+            .RC{
+                
+                width: 28%;
+                height: 100px;
+                
+                margin-top: 5px;
+                margin-left: 4%;
+              
+                float: left;
+                
+                
+                
+                img{
+                    
+                    width: 100%;
+                    height: 80px;
+                   
+                    
+                    
+                }
+                
+                p{
+                    
+                    width: 100%;
+                    height: 20px;
+                    text-align: center;
+                    
+                }
+                
+                
+                
+            }
+            
+            
+            
+        }
+        
+        .RightBottom{
+            
+            width: 100%;
+            float: left;
+            
+            .titleList{
+                
+               
+                height: 40px;
+                
+                border-top: 1px solid silver;
+                border-bottom: 1px solid silver;
+                
+                background: #fff;
+                
+                 width: 100%;
+//              position: fixed;
+                
+                top: 0;
+                right: 0;
+               
+              
+                
+                li{
+                    width: 33%;
+                    float: left;
+                    text-align: center;
+                    line-height: 40px;
+                    
+                    
+                    
+                   
+                    
+                    &:nth-of-type(2){
+                        
+                        border-left: 1px solid silver;
+                    
+                        border-right: 1px solid silver;
+                        
+                    }
+                    
+                    
+                   
+                }
+                
+                .titleactive{
+                    
+                    color: #007AFF;
+                }
+         
+                
+            }
+            
+            .RBcontent{
+                
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                
+                margin-top:2%;
+                
+                
+               
+                
+                 &::-webkit-scrollbar {display:none}
+                 
+                 
+                 
+                 li{
+                     list-style: none;
+                     width: 47%;
+                     
+                     height: 200px;
+                     
+                     float: left;
+                    
+                     
+                     margin-left: 2%;
+                     
+                     margin-bottom: 2%;
+                     
+                     img{
+                         
+                         width: 100%;
+                         height: 140px;
+                         
+                         
+                         
+                     }
+                     
+                     p{
+                         
+                         width: 100%;
+                         
+                         height: 30px;
+                         
+                        
+                         
+                         white-space: nowrap;
+                         overflow: hidden;
+                         text-overflow: ellipsis;
+                         line-height: 30px;
+                         text-indent: 5px;
+                         
+                     }
+                     
+                     .hot{
+                         
+                         width: 100%;
+                         height: 30px;
+                       
+                         span{
+                             line-height: 30px;
+                         }
+                         
+                         span:nth-of-type(1){
+                             
+                             float: left;
+                             
+                             margin-left: 5px;
+                             
+                             
+                             
+                         }
+                         span:nth-of-type(2){
+                             
+                             float: right;
+                             
+                         }
+                         
+                     }
+                     
+                     
+                 }
+                
+            }
+            
+        }
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+}

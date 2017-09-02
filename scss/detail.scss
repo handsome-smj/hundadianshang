@@ -1,0 +1,121 @@
+@import './main.scss';
+
+.type{
+            width: 100%;
+            flex: 1;
+             @include flexBox;
+             @include flex-direction('column');
+             
+             height: auto;
+             
+             
+        #content{
+            
+            width: 100%;
+            
+            .bannerContent{
+                
+                width: 100%;
+                height: 70%;
+                
+                   .swiper-container{
+                        width: 100%;
+                        height: 100%;
+                      
+                        
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                    }
+                
+                
+            }
+            
+            .proTitle{
+                width: 90%;
+                
+                margin-left: 5%;
+                height: 50px;
+                
+                line-height: 25px;
+                font-size: 15px;
+                
+                
+                
+            }
+            
+            
+         
+            
+            
+        }
+        
+        
+        #detailFooter{
+            
+            width: 100%;
+            .small{
+                
+                width: 100%;
+                height: 50px;
+                @include flexBox;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                
+                border-top: 2px solid #EAEAEA;
+                
+                li{
+                    @include flex(1);
+                    
+                    line-height: 50px;
+                    text-align: center;
+                    
+                    color: #666666;
+                    
+                    &:nth-of-type(2){
+                        
+                        border-left: 1px solid #F6F6F6;
+                        border-right: 1px solid #F6F6F6;
+                        
+                        
+                        
+                        
+                    }
+                    
+                    &:nth-of-type(4){
+                        
+                        padding: 0 10px;
+                        
+                        background: #FFE6E8;
+                        color: #FF5777;
+                        
+                    }
+                    &:nth-of-type(5){
+                        
+                        padding: 0 10px;
+                        background: #FF488C;
+                        
+                        color: #fff;
+                        
+                    }
+                    
+                    
+                    
+                }
+                                
+                
+                
+                
+            }
+            
+          
+            
+            
+        }
+             
+             
+             
+}
